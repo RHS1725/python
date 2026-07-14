@@ -1,192 +1,135 @@
 <div align="center">
 
-# 👋 Hi, I'm Helan Suja
+# 🚀 Python Programming Notes
 
-### 🤖 AI & Data Science Graduate | 🔐 Aspiring Cybersecurity Engineer | 🐍 Python Developer
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Programming+Notes;Beginner+to+Advanced;Practice+Programs;Learn+Python+Step+by+Step" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+%26+Data+Science+Graduate;Cybersecurity+Enthusiast;Machine+Learning+Developer;Python+Programmer;Always+Learning+New+Technologies" />
+<p>
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/RHS1725/python?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/RHS1725/python?style=for-the-badge"/>
+</p>
 
 </div>
 
 ---
 
-# 🚀 About Me
+# 📖 About
 
-🎓 B.Tech in Artificial Intelligence & Data Science
+This repository contains Python programs covering:
 
-🔐 Exploring Cybersecurity
+- ✅ Variables
+- ✅ Data Types
+- ✅ Operators
+- ✅ Conditional Statements
+- ✅ Loops
+- ✅ Functions
+- ✅ Recursion
+- ✅ Lists
+- ✅ Tuples
+- ✅ Dictionaries
+- ✅ Sets
+- ✅ Modules
+- ✅ List Comprehension
+- ✅ Pattern Programs
 
-🤖 Passionate about AI + Security
-
-🌐 Interested in Machine Learning, Networking and Cloud
-
-💡 Building projects to solve real-world problems
-
-📍 Chennai, India
-
----
-
-# 🛠 Tech Stack
-
-### Programming
-
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,java,html,css,javascript,mysql"/>
-
-</p>
+Perfect for beginners learning Python.
 
 ---
 
-### AI / Machine Learning
+# 📂 Folder Structure
 
-<p>
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv"/>
-
-</p>
-
-- NumPy
-- Pandas
-- Scikit-learn
-- XGBoost
-- CNN
-- Random Forest
-
----
-
-### Cybersecurity
-
-- Network Security
-- Digital Forensics
-- Malware Analysis
-- OWASP Top 10
-- Nmap
-- Wireshark
-- Linux
-- Git
+```
+📁 Python
+ ┣ 📜 helloworld.py
+ ┣ 📜 datatypes.py
+ ┣ 📜 arithmetic operators.py
+ ┣ 📜 functions.py
+ ┣ 📜 recursion.py
+ ┣ 📜 list.py
+ ┣ 📜 dictionary.py
+ ┣ 📜 tuples.py
+ ┣ 📜 set.py
+ ┣ 📜 modules
+ ┗ 📜 ...
+```
 
 ---
 
-### Cloud
+# 🛠 Technologies Used
 
-<p>
+🐍 Python
 
-<img src="https://skillicons.dev/icons?i=aws,docker,linux"/>
+💻 VS Code
 
-</p>
+📦 Git
 
----
-
-# 📂 Featured Projects
-
-## 🔐 Malware Detection using AI
-
-Machine Learning based malware image detection using
-
-- Random Forest
-- XGBoost
-- Image Processing
-- Feature Extraction
-
-🔗 Repository:
-https://github.com/YOUR_USERNAME/Malware-Detection
+🌐 GitHub
 
 ---
 
-## 🌐 Networking Projects
+# ✨ Features
 
-- VLAN
-- DHCP
-- Port Security
-- EtherChannel
-- Dynamic NAT
+⭐ Beginner Friendly
 
----
+⭐ Easy to Understand
 
-## 🤖 Deep Learning Projects
+⭐ Well Commented Programs
 
-- CNN
-- Image Classification
-- OpenCV
-- TensorFlow
+⭐ Covers Core Python Concepts
+
+⭐ Ready for Practice
 
 ---
 
-## 🐍 Python Projects
+# 🚀 Getting Started
 
-Automation
+Clone the repository
 
-Data Analysis
+```bash
+git clone https://github.com/RHS1725/python.git
+```
 
-Machine Learning
+Move inside
 
-GUI Applications
+```bash
+cd python
+```
 
----
+Run
 
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
+```bash
+python helloworld.py
+```
 
 ---
 
-# 🔥 GitHub Streak
+# 📸 Preview
 
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight"/>
-
-</p>
+> Add screenshots or GIFs of your code execution here.
 
 ---
 
-# 🏆 GitHub Trophies
+# 🤝 Contributing
 
-<p align="center">
+Contributions are welcome!
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&margin-w=10"/>
-
-</p>
+Fork → Create Branch → Commit → Push → Pull Request
 
 ---
 
-# 📈 Contribution Graph
+# 📬 Connect With Me
 
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-
-</p>
-
----
-
-# 📫 Connect With Me
-
-<p>
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/>
-</a>
-
-</p>
+- GitHub: https://github.com/RHS1725
 
 ---
 
 <div align="center">
 
-### 💻 "Learning Never Stops."
+### ⭐ Star this repository if you found it useful!
 
-⭐ Thanks for visiting my profile ⭐
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="250">
 
-</div># python
+</div>
