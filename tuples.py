@@ -1,0 +1,15 @@
+tup=(12,"ten",9)
+print(tup)
+tup=(17,2,34,11,11)
+print(tup)
+print(len(tup))
+print(max(tup))
+print(min(tup))
+print(tup.count(11))
+print(tup.index(11))
+
+lst=list(tup)
+print(lst)
+
+tuple2=tuple(lst)
+print(tuple2)

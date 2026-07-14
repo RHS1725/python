@@ -1,0 +1,458 @@
+1. hello world
+--------------
+print ("helloworld!")
+print ----two argument-----end and sep 
+1. end ------default end arg is "\n"--------end=""
+2. sep-------default sep arg is space
+================================================================
+2.ESCAPE SEQUENCES
+\n
+\t
+===================================================================
+3.how python works
+high level lang ----human readable lang
+low level lang ----binary lang
+interpreter ----convert high level lang to low level lang | line by line execution
+complier ----convert high=>low|
+=====================================================================
+4.comments 
+ comments are ignored by interpreter
+#------single line comment
+'''..........'''--------multi line comment (docstring)
+====================================================================
+5.Datatypes
+
+left---container ==variable/identifier
+right----value
+
+
+simple ---
+1. int
+2. float
+3.string 
+4. Boolean---True /False
+
+complex---
+1.list
+2.tuple
+3.dict
+
+rules for naming identifier
+
+1. no keyword as identifier
+2. identifiers are case-sensitive
+3. no special character except underscore(snake_case)
+4. no space
+5. starting should be letter/_
+
+check datatype ----print(type())
+===================================================================================
+
+6. Assignment Operator
+ used to assign value tp varible 
+ 
+type inferred----detects the datatype automatically when value assigned 
+
+other lang 
+int age ; # declaration reserve space in ram
+age =20 ; initialization add value to the space
+
+===================================================================================
+7. dynamic typing  in python |||| static typing in other lang 
+
+name="sg"
+name=1972
+print(name)
+o/p =1972
+
+Mutability
+
+str---does not support item assignment -----immutable
+int ----immutable
+float---immutable
+Boolean -immutable
+
+list----mutable
+dict---mutable
+
+====================================================================================
+8.Arithmetric operators
+====================================================================================
+9.Relational operators (comparison operators)  
+o/p = boolean
+====================================================================================
+10. Augmented assignment operator
+ a=a+2
+a+=2
+======================================================================================
+11.swapping of numbers
+ temp 
+=====================================================================================
+12.membership operator----check if an element is a member
+=====================================================================================
+13.Logical operators
+
+AND
+OR
+NOT
+=========================================================================================
+14.bitwise operator
+
+bitwise AND
+bitwise OR
+bitwise Not
+bitwise XOR ---p q
+               t  t   f
+	       t  f  t
+	       f  t   t
+	       f  f  f
+
+bitwise right shift === 10---01
+bitwise left shift
+===========================================================================================
+15. string replication
+==========================================================================================
+16.user console 
+
+typecasting
+=========================================================================================
+17.unit digit
+ unit ----num%10
+tenth----num//10 ---num%10
+hundred----num//100 ---num%10
+=============================================================================================
+18.stmt ---instructions given to computer
+ every line of program is stmt
+simple stmt
+compound stmt
+empty stmt ----pass
+
+conditional stmt
+---------------
+
+1. if stmt
+2.if else stmt
+3.if elif else stmt
+
+control flow----tells which of program flow to execute
+==================================================================================================
+
+19.nested if ---need to work on
+
+===================================================================================================
+20.ternary operator ---need to work on
+=====================================================================
+21.iterative stmt ---loop
+
+used to repeat and again and again
+types
+1.entry control loop 
+2.exit control loop
+
+
+for loop
+----------
+for i in range(s,s,s):
+	print(i)
+
+while loop ----give increment
+----------
+while (condition):
+	print()
+============================================================================================================
+22.pass statement----empty stmt
+
+we cant leave the o/p of if /for stmt,so pass used which does nothing about it
+
+jump statement ---used in loops
+------------
+
+1.break 
+2.continue--------skips the iteration and moves on to next iteration
+
+@ CTRL+C ---to stop infinite loop
+===================================================================================================
+22.  nested loop check on this 5.11
+
+n=int(input("enter n :"))
+for j in range(1,n+1):======how many times like tht row
+
+    for i in range (1,j+1):   =====tells what in each row  
+        print(i, end=" ")
+
+    print()
+========================================================================================================
+23.list  ----collection of elements ,heterogeneous
+ 
+ is similar to array but key difference is array is homogeneous 
+ array not in python 
+
+append ----always at end----for only one element the element can be list too====listame.append(value)
+extend -----end-------------many elements========listname.extend(nxt_listname)
+insert------at specific loc---for one value======listname.insert(index,value)
+clear-----clear elements in list-=============listname.clear()
+count-----count no of elements================listname.count(value)
+index-----find the index   only displays the first occureence=====================list_name.index(value)
+min--------find minimum element======================min(list_name)
+max--------find max elemnt===========================max(list_name)
+sort-------arrange in ascending order==============list_name.sort()
+                                                       print(list_name)
+sort-------arrange in descending order============list_name.sort(reverse=True)
+sum-----sum of elemnts============================print(sum(list_name))
+
+mutability ----update element-----listname[index]=value
+pop ----to remove last element/at specific index-----listname.pop()/listname.pop(index)
+                                   print(listname)
+remove ----to remove element of particular value at first occurrence============listname.remove(value)
+                                                            print(listname)
+
+nested lists
+------------
+=============================================================================================================
+24.tuples-----collection of data---heterogeneous----immutability===()
+
+len
+min
+max
+count
+index
+
+# convert tup to list
+new list name=list(tupname)
+print(new list name)
+
+convert list to tuple
+new tuple name=tuple(lstname)
+print(new tuple name)
+
+
+weird case
+-------
+for forming single element tuple =====> num = (9,)
+
+===============================================================================================================
+
+25. traversal ----element by element
+
+=============================================================================================================
+26.slicing-----applicable for str,list and tuple
+
+print(stringname[start indx:stop indx:step ])
+
+no error in slicing -----
+=============================================================================================================
+27.dictionary====key :value pair
+
+key should be unique 
+no index concept
+unordered
+no sorting bcs unordered
+keys are immutable-----list cant be used as key 
+values are mutable ----lists can be stored as value
+
+dict functions
+--------------
+
+get ------access the element-----------==========================print(dict_name.get(key))
+len--------length===================================print(len(dict_name))
+keys---------print only keys========================print(dict_name.keys())
+values------print only values======================print(dict_name.values())
+items -----to print in list format===================print(dict_name.items())
+
+ ---------add key value =================dict_name[key]= value
+pop----------remove key value pair==========dict_name.pop(key)
+clear-----------remove all------------------dict_name.clear()
+create empty dict-----------------dict_name=dict()
+
+====================================================================================================
+28.sets---colab of dict and list--{}
+
+unordered
+no indexing
+no duplicates ***
+
+add-----add element=========set_name.add(value)
+remove------remove element====set_name.remove(value)
+clear
+
+convert list to set
+
+lst=[1,3,8]
+set_name=set(lst)==========constructor***
+print(set_name)
+
+
+set operatios
+
+union----add elements-----set_name.union(set_name2)
+interection----common elements----print(set_name.interection(set_name2))
+difference========================print(set_name.difference(set_name2))
+
+traversal done
+=======================================================================================
+29.list comprehension
+=======================================================================================
+30.Functions----for reusability of code 
+
+def func_name():
+
+        func define
+
+call function()
+
+types of function
+----------------
+based on return
+1.void functins=====doesn't return anything 
+2.non void functions
+
+
+1.non void with arg
+2.non void no args
+===========================================================================================
+31.arguments and parameters
+
+function definition name====parameters
+function call i/p actual value ====args
+
+
+keyword argument
+--------------------
+
+def area_of_rectangle(breadth,height):
+    area=breadth*height
+    return(area)
+
+
+area_rect=area_of_rectangle( breadth=7,height= 9)
+print(area_rect)
+
+default argument
+------------------
+
+def area_of_rectangle(breadth,height=1):
+    area=breadth*height
+    return(area)
+
+
+area_rect=area_of_rectangle(7,9)
+print(area_rect)
+
+positional argument
+-------------------
+def area_of_rectangle(breadth,height):
+    area=breadth*height
+    return(area)
+
+
+area_rect=area_of_rectangle(7,9)
+print(area_rect)
+
+
+** default arg should be at last
+positional argument should be first
+=================================================================================================================
+32. scope of the variable====who and where variable can be accessed 
+
+local scope ====within home apple tree
+global scope
+=========================================================================================================
+33.recursion   ====function calling itself
+
+base case ----which state to end
+recursive case ----which to recur
+
+stackoverflow error
+=======================================================================================================
+34.modules
+
+import filename
+from filename import function
+from filename import *
+
+math ----- square root ,power,absolute value ,
+
+===============================================================================================
+package ---collection of modules 
+
+package should have __init__.py
+
+===============================================================================================
+object oriented programming 
+
+properties and behaviour
+
+class ---template 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
